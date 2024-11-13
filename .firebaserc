@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "soki-cc58f"
-  }
+  },
+  "targets": {
+    "soki-cc58f": {
+      "hosting": {
+        "client": [
+          "app-soki"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

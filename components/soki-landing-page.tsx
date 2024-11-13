@@ -63,8 +63,8 @@ export function SokiLandingPage() {
       <div className="flex-1 flex flex-col bg-white/80 dark:bg-gray-900/80 transition-colors duration-200 backdrop-blur-sm relative z-10">
         <header className="container mx-auto px-8 py-6 flex justify-between items-center">
           <Image
-            src="/images/soki-banner.png"
-            alt="SOKI Logo"
+            src="/Images/SokiBanner.png"
+            alt="SOKI Logo Image"
             width={80}
             height={25}
             className="rounded"
@@ -80,7 +80,7 @@ export function SokiLandingPage() {
 
         <main className="flex-1 container mx-auto px-8 py-12 flex flex-col md:flex-row items-center justify-around">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <h2 className="text-5xl font-bold tracking-tight lg:text-5xl xl:text-6xl">
+            <h2 className="text-5xl font-bold tracking-tight lg:text-5xl xl:text-6xl dark:text-[#ffff]">
               Amplify your{' '}
               <span className="text-[#800000] dark:text-[#ff8080]">
                 Social Experience
