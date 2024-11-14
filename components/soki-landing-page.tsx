@@ -122,7 +122,7 @@ export function SokiLandingPage() {
                 Reach more customers and boost your business!
               </p>
               <Link
-                href="https://admin-soki.web.app/"
+                href="https://soki.co.ke/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
