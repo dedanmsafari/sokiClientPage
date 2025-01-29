@@ -101,16 +101,16 @@ export function SokiLandingPage() {
                   height={40}
                 />
               </Link>
-              <Link href="#" className="w-32">
+              <Link
+                href="https://apps.apple.com/app/soki-a-social-experience/id6741012665"
+                className="w-32"
+              >
                 <Image
                   src="/Images/Apple.png"
                   alt="Download on iOS"
                   width={150}
                   height={40}
                 />
-                <p className="text-sm text-gray-600 dark:text-gray-300 mt-2 text-center ">
-                  (Coming Soon)
-                </p>
               </Link>
             </div>
             <div className="mb-8">
@@ -145,7 +145,7 @@ export function SokiLandingPage() {
         </main>
 
         <footer className="container mx-auto px-8 py-6 text-center text-gray-600 dark:text-gray-400">
-          © 2024 Soki. All rights reserved.
+          © {new Date().getFullYear()} Soki. All rights reserved.
         </footer>
       </div>
     </div>
